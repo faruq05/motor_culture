@@ -117,6 +117,32 @@ p {
     color: var(--cs-text) !important;
 }
 
+.draw_head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#d7d7d7;
+    z-index: 10;
+}
+
+.draw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.draw p{
+    color: var(--cs-primarys);
+}
+
+.draw p a{
+    color: var(--cs-primarys);
+    text-decoration: underline;
+}
+
+
 /* header ends */
 /* .hero starts */
 .hero {
